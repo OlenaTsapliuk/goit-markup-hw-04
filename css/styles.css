@@ -167,10 +167,22 @@ img {
 
 /* Герой */
 .heroy {
-  background-color: var(--footer-heroy-background-color);
-  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--footer-heroy-background-color);
+  /* text-align: center; */
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/overlay.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .heroy-caption {
   max-width: 700px;
@@ -398,7 +410,6 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 .portfolio-menu .item:nth-child(3n) {
   margin-right: 0;
@@ -408,4 +419,5 @@ img {
 }
 .portfolio-description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
