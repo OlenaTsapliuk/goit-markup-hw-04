@@ -221,6 +221,29 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+.features .item::before {
+  display: block;
+  margin-bottom: 30px;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  /* background-size: contain; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon-microscope::before {
+  background-image: url("../images/microscope.png");
+}
+.icon-clock::before {
+  background-image: url("../images/clock.png");
+}
+.icon-diagram::before {
+  background-image: url("../images/diagram.png");
+}
+.icon-astronaut::before {
+  background-image: url("../images/astronaut.png");
+}
 .features p {
   line-height: 1.714;
   width: 270px;
