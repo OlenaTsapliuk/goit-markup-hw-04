@@ -222,34 +222,33 @@ img {
   margin-bottom: 10px;
 }
 
-.features .item::before {
+/* .features .item::before {
   display: block;
   margin-bottom: 30px;
   content: "";
   height: 120px;
   background-color: #f5f4fa;
-  /* background-size: contain; */
+  /* background-size: contain; 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+
+.thumb {
+  display: flex;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
 }
-/* .icon-microscope::before {
-  background-image: url("../images/microscope.svg");
+
+.features .thumb:not(:last-child) {
+  margin-right: 30px;
 }
-.icon-clock::before {
-  background-image: url("../images/clock.svg");
-}
-.icon-diagram::before {
-  background-image: url("../images/diagram.svg");
-}
-.icon-astronaut::before {
-  background-image: url("../images/astronaut.svg");
-} */
+
 .features p {
   line-height: 1.714;
   width: 270px;
   height: 75px;
   letter-spacing: 0.03em;
-
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -300,9 +299,19 @@ img {
   margin-right: 30px;
 }
 .workers-description {
-  /* padding-top: 30px; */
-  /* padding-bottom: 30px; */
   padding: 30px 60px;
+}
+.klient-list {
+  display: flex;
+}
+.klient-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.klient-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* Доступность */
 
