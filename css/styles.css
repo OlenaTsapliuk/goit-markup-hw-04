@@ -232,7 +232,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
-.icon-microscope::before {
+/* .icon-microscope::before {
   background-image: url("../images/microscope.svg");
 }
 .icon-clock::before {
@@ -243,7 +243,7 @@ img {
 }
 .icon-astronaut::before {
   background-image: url("../images/astronaut.svg");
-}
+} */
 .features p {
   line-height: 1.714;
   width: 270px;
