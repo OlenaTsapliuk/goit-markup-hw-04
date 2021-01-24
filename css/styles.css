@@ -238,6 +238,8 @@ img {
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
 .features .thumb:not(:last-child) {
@@ -283,7 +285,7 @@ img {
   font-weight: normal;
   line-height: 1.7;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   text-align: center;
 }
 .workers-list {
@@ -299,8 +301,37 @@ img {
   margin-right: 30px;
 }
 .workers-description {
-  padding: 30px 60px;
+  padding: 30px 32px;
 }
+/* Ссылки на социальные сети */
+.social-list {
+  display: flex;
+  margin-bottom: 0;
+}
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--primary-white-color);
+  color: #afb1b8;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.social-links-icon {
+  fill: currentColor;
+}
+
+/* Секция Постоянные клиенты */
 .klient-list {
   display: flex;
 }
