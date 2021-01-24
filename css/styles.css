@@ -145,15 +145,23 @@ ul {
   display: flex;
   margin-left: auto;
 }
-
 .auth-nav .item + .item {
   margin-left: 50px;
 }
 /* Иконки Tel, mail */
-/* .icon {
-  margin-right: 10px;
+
+.auth-nav .link {
   align-items: center;
+  color: var(--primary-text-color);
+}
+.auth-nav .icon {
+  margin-right: 10px;
+  color: currentColor;
+}
+/* .auth-nav .link:hover {
+  color: var(--accent-color);
 } */
+
 /* Секция  */
 .section,
 .workers {
@@ -230,16 +238,6 @@ ul {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
-/* .features .item::before {
-  display: block;
-  margin-bottom: 30px;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
-  /* background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat; */
 
 .thumb {
   display: flex;
@@ -357,7 +355,7 @@ ul {
   margin-right: 30px;
 }
 .klient-links {
-  display: inline-flex;
+  display: block;
   color: #afb1b8;
   width: 170px;
   height: 90px;
@@ -367,7 +365,9 @@ ul {
 .klient-links .icon {
   fill: currentColor;
 }
-
+.klient-links:hover {
+  color: var(--accent-color);
+}
 /* Доступность */
 
 .site-nav .link:hover,
