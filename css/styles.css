@@ -359,13 +359,13 @@ ul {
 .klient-links {
   display: inline-flex;
   color: #afb1b8;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
 }
 .klient-links .icon {
   fill: currentColor;
-}
-.klient-links:hover,
-.klient-links:focus {
-  fill: var(--accent-color);
 }
 
 /* Доступность */
