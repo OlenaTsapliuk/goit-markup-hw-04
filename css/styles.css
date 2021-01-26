@@ -130,10 +130,7 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.auth-nav,
-.auth-nav .link {
-  color: var(--primary-text-color);
-}
+
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -141,28 +138,25 @@ ul {
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-nav {
+.auth-nav,
+.auth-nav .link {
   display: flex;
   margin-left: auto;
   align-items: center;
   justify-content: center;
+  color: var(--primary-text-color);
 }
 .auth-nav .item + .item {
   margin-left: 50px;
 }
+
 /* Иконки Tel, mail */
 
 .auth-nav .link {
-  align-items: center;
-  color: var(--primary-text-color);
-  color: currentColor;
+  fill: currentColor;
 }
 .auth-nav .icon {
   margin-right: 10px;
-  /* color: currentColor; */
-}
-.auth-nav .icon:hover {
-  color: var(--accent-color);
 }
 
 /* Секция  */
