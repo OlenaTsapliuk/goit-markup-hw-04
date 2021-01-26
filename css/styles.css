@@ -23,6 +23,7 @@ html {
   --footer-heroy-background-color: #2f303a;
   --background-komandy: #f5f4fa;
   --color-link-footer: rgba(255, 255, 255, 0.6);
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -143,6 +144,8 @@ ul {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
+  justify-content: center;
 }
 .auth-nav .item + .item {
   margin-left: 50px;
@@ -299,7 +302,7 @@ ul {
   display: flex;
 }
 .workers-list .item {
-  background: #ffffff;
+  background: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -328,7 +331,7 @@ ul {
   height: 100%;
   border-radius: 50%;
   background-color: var(--primary-white-color);
-  color: #afb1b8;
+  color: var(--icon-color);
   justify-content: center;
   align-items: center;
   fill: currentColor;
@@ -357,7 +360,7 @@ ul {
 }
 .klient-links {
   display: block;
-  color: #afb1b8;
+  color: var(--icon-color);
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -415,6 +418,7 @@ ul {
   font-size: 14px;
   line-height: 1.7;
 }
+/* Список ссылок */
 .social-caption {
   margin-bottom: 20px;
   margin-top: 12px;
@@ -493,7 +497,8 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.portfolio-menu .portfolio:hover {
+.portfolio-menu .portfolio:hover,
+.portfolio-menu .portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
