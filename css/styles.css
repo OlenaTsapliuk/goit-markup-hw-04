@@ -331,7 +331,8 @@ ul {
   fill: currentColor;
 }
 
-.social-links:hover {
+.social-links:hover,
+.social-links:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -364,7 +365,8 @@ ul {
 /* .klient-links .icon {
   fill: currentColor;
 } */
-.klient-links:hover {
+.klient-links:hover,
+.klient-links:focus {
   color: var(--accent-color);
 }
 /* Доступность */
