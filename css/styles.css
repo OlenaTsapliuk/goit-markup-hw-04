@@ -509,6 +509,7 @@ ul {
 .button-item .button-item-icon:not(:last-child) {
   margin-right: 8px;
 }
+/* Ссылка карточка */
 .portfolio-icon {
   margin-top: 0;
 }
@@ -518,10 +519,20 @@ ul {
   margin-bottom: 0;
 }
 .portfolio-menu {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
+
 .portfolio-menu .item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+/* .portfolio-menu .item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -531,7 +542,7 @@ ul {
 }
 .portfolio-menu .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
+} */
 .portfolio-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
