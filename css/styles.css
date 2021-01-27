@@ -417,7 +417,7 @@ ul {
 /* Список ссылок */
 .social-caption {
   margin-bottom: 20px;
-  margin-top: 12px;
+  margin-top: 0px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -430,6 +430,7 @@ ul {
 }
 .footer-content {
   display: flex;
+  align-items: center;
 }
 .bg {
   background-color: rgba(255, 255, 255, 0.1);
